@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package notificationproto;
 
-option go_package = "github.com/hann10602/go-rGPC";
+option go_package = "grpcstreaming/notificationproto";
 
 service NotificationService {
     rpc GetNotifications(NotificationRequest) returns (stream Notification) {}
