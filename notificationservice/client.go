@@ -1,0 +1,4 @@
+package notificationservice
+
+func NewClient() {
+}
